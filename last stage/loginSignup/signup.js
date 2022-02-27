@@ -47,7 +47,7 @@ function signupInfo(event) {
       document.querySelector("#repass").value = ""
 
 
-      window.location.href = "/loginSignup/login.html"
+      window.location.href = "./login.html"
       
    //   userispresent = {"name" : document.querySelector("#name").value}
    //   userispresent = JSON.stringify(userispresent)

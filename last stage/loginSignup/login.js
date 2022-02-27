@@ -44,7 +44,7 @@ function checkInfo(mailid, password) {
 
       if (ele.email == document.querySelector("#email").value && ele.pass == document.querySelector("#pass").value) {
         alert("login successful")
-        window.location.href = "/beauty-bebo/Merging/new/homepage.html"
+        window.location.href = "/last stage/beauty-bebo/index.html"
       }
       else if (ele.email == document.querySelector("#email").value) {
         alert("incorrect password")

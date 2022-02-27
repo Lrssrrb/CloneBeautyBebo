@@ -7,7 +7,7 @@ function otpfunct(event)
 
     if(document.querySelector("#inputBox").value ==="1234")
     {
-        window.location.href = "/beauty-bebo/Merging/new/homepage.html"
+        window.location.href = "/last stage/beauty-bebo/index.html"
         alert("Payment Successful")
         alert("Order placed Successfully")
     

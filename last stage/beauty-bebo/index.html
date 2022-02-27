@@ -7,7 +7,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <!-- CSS only -->
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
-        <link rel="stylesheet" href="/beauty-bebo/Merging/Style/index.css">
+        <link rel="stylesheet" href="/last stage/beauty-bebo/Merging/Style/index.css">
 
         <link
             href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&family=Roboto:wght@100;300&display=swap"
@@ -248,9 +248,12 @@
                                 <div>
                                     <a href="">FACE</a>
                                     <ul>
-                                        <li><a href="/beauty-bebo/Merging/product-pages/makeup/BBcream.html">BB Cream</a></li>
-                                        <li><a href="/beauty-bebo/Merging/product-pages/makeup/blush.html">Blush</a></li>
-                                        <li><a href="/beauty-bebo/Merging/product-pages/makeup/bronzer.html">Bronzer</a></li>
+                                        <li><a href="/last stage/beauty-bebo/Merging/product-pages/makeup/BBcream.html">BB
+                                                Cream</a></li>
+                                        <li><a href="/last stage/beauty-bebo/Merging/product-pages/makeup/blush.html">Blush</a>
+                                        </li>
+                                        <li><a href="/last stage/beauty-bebo/Merging/product-pages/makeup/bronzer.html">Bronzer</a>
+                                        </li>
                                         <li><a href="">Contour</a></li>
                                         <li><a href="">Concealer</a></li>
                                         <li><a href="">Compact & Powder</a></li>
@@ -266,8 +269,10 @@
                                 <div>
                                     <a href="">EYE</a>
                                     <ul>
-                                        <li><a href="/beauty-bebo/Merging/product-pages/makeup/contact-lenses.html">Contact Lenses</a></li>
-                                        <li><a href="/beauty-bebo/Merging/product-pages/makeup/eyeKit.html">Eye Kit</a></li>
+                                        <li><a href="/last stage/beauty-bebo/Merging/product-pages/makeup/contact-lenses.html">Contact
+                                                Lenses</a></li>
+                                        <li><a href="/last stage/beauty-bebo/Merging/product-pages/makeup/eyeKit.html">Eye Kit</a>
+                                        </li>
                                         <li><a href="">Eyeliner</a></li>
                                         <li><a href="">Eye Shadow</a></li>
                                         <li><a href="">Eye Primer</a></li>
@@ -332,8 +337,10 @@
                                 <div>
                                     <a href="">EYE CARE</a>
                                     <ul>
-                                        <li><a href="/beauty-bebo/Merging/product-pages/skin/darkc.html">Dark Circles</a></li>
-                                        <li><a href="/beauty-bebo/Merging/product-pages/skin/eyecounter.html">Eye Contour Care</a></li>
+                                        <li><a href="/last stage/beauty-bebo/Merging/product-pages/skin/darkc.html">Dark
+                                                Circles</a></li>
+                                        <li><a href="/last stage/beauty-bebo/Merging/product-pages/skin/eyecounter.html">Eye
+                                                Contour Care</a></li>
                                         <li><a href="">Eye Cream</a></li>
                                         <li><a href="">Eye Masks</a></li>
                                         <li><a href="">Eye Serums</a></li>
@@ -949,10 +956,10 @@
             </div>
 
             <!-- <div class="slider-images"> -->
-                <div id="slide">
-                    <img class="bottom" src="https://www.beautybebo.com/pub/media/ads/Vega_new_year_banner.jpg" />
-                    <!-- <img class="top" src="https://www.beautybebo.com/pub/media/ads/imgpsh_fullsize_anim_16_.jpg" /> -->
-                </div>
+            <div id="slide">
+                <img class="bottom" src="https://www.beautybebo.com/pub/media/ads/Vega_new_year_banner.jpg" />
+                <!-- <img class="top" src="https://www.beautybebo.com/pub/media/ads/imgpsh_fullsize_anim_16_.jpg" /> -->
+            </div>
             <!-- </div> -->
         </div>
 
@@ -1682,7 +1689,8 @@
                         </div>
 
 
-                        <div id="form"><div>Signup For Newsletter</div> 
+                        <div id="form">
+                            <div>Signup For Newsletter</div>
                             <input type="email" placeholder=" Signup For Newsletter ">
 
                             <button class="action subscribe primary" title="Subscribe" type="submit"> Subscribe
@@ -1703,6 +1711,105 @@
         </div>
 
     </body>
-<script src="./home.js"></script>
-</html>
 
+
+    
+    <script>
+
+
+
+
+        function cartpage() {
+            window.location.href = "./Merging/cart/rk.html"
+        }
+
+
+        document.querySelector("#selectLogin").addEventListener("change", change)
+
+        function change() {
+            var x = document.querySelector("#selectLogin").value
+
+            if (x == "login") {
+                console.log(x)
+                window.location.href = "/last stage/loginSignup/login.html"
+            }
+            else if (x == "reg") {
+                window.location.href = "/last stage/loginSignup/signup.html"
+            }
+        }
+
+
+        function showdata() {
+            console.log(document.querySelector(".zname").innerHTML)
+        }
+
+        var cartarr = JSON.parse(localStorage.getItem("cart")) || []
+        d = document.querySelectorAll("#Addcart1")
+        d.forEach(e => {
+            e.addEventListener("click", go)
+        });
+        function go(e) {
+            imgsrc = e.target.parentNode.parentNode.childNodes[1].src
+            imgname = e.target.parentNode.parentNode.childNodes[3].innerText
+            price = e.target.parentNode.parentNode.childNodes[7].childNodes[3].innerText
+            quantity = 1
+            console.log(imgsrc, imgname, price, quantity)
+            cartpush = {
+                "image_url": imgsrc,
+                "name": imgname,
+                "price": price,
+                "quantity": quantity,
+            }
+            cartarr.push(cartpush)
+            cartarr = JSON.stringify(cartarr)
+            localStorage.setItem("cart", cartarr)
+            document.location.reload()
+        }
+
+        for (x = 0; x < 17; x++) {
+            if (x % 2 == 0) {
+                rem = document.querySelectorAll("#Addcart>div")[x].addEventListener("click", other)
+            }
+        }
+
+        function other(e) {
+            imgsrc = e.target.parentNode.parentNode.parentNode.childNodes[1].src
+            imgname = e.target.parentNode.parentNode.childNodes[1].innerText
+            price = e.target.parentNode.parentNode.childNodes[5].innerText
+            quantity = 1
+            console.log(imgsrc, imgname, price, quantity)
+            cartpush = {
+                "image_url": imgsrc,
+                "name": imgname,
+                "price": price,
+                "quantity": quantity,
+            }
+            cartarr.push(cartpush)
+            cartarr = JSON.stringify(cartarr)
+            localStorage.setItem("cart", cartarr)
+            document.location.reload()
+        }
+
+        function showbig(e) {
+            img = e.target.src
+            n = e.target.parentNode.parentNode.lastChild.querySelector("h4").innerText
+            // 
+            retting = e.target.parentNode.parentNode.lastChild.querySelector("div")
+            // 
+            price = e.target.parentNode.parentNode.lastChild.querySelector("#fdivi>div>s").innerText
+            // 
+            strikedoffprice = e.target.parentNode.parentNode.lastChild.querySelector("#fdivi")
+            strikedoffprice = strikedoffprice.querySelectorAll("div")[1].innerText
+
+            discount = e.target.parentNode.parentNode.lastChild.querySelector("#fdivi")
+            discount = discount.querySelectorAll("div")[2].innerText
+
+            button = e.target.parentNode.parentNode.lastChild.lastChild
+            single = { "img": img, "name": n, "price": price, "strikedoffprice": strikedoffprice, "discount": discount }
+            single = JSON.stringify(single)
+            localStorage.setItem("single", single)
+            window.open("http://127.0.0.1:5500/showItem.html", "_self")
+        }
+    </script>
+
+</html>
