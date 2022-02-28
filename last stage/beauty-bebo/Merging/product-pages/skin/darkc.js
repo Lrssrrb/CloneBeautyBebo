@@ -149,7 +149,7 @@ var BBcream = [
 document.querySelector(".cart").addEventListener("click",cartpage)
 
 function cartpage(){
-    window.location.href = "/beauty-bebo/Merging/cart/rk.html"
+    window.location.href = "/last stage/beauty-bebo/Merging/cart/rk.html"
 }
 
 
