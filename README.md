@@ -12,6 +12,7 @@ and then checkout and a dummy payment page
 follow these steps to get the flow of the project
 
 visit the link -: https://spectacular-valkyrie-df79c4.netlify.app/
+<!-- <img src="https://drive.google.com/file/d/1enNikyNyyC76eqMhHG4VdTN7rxJ1fma0/view?usp=sharing" alt="first page"> -->
 
 then you will see a simple button written Click here to see my project
 if you click on that you will be redirected to the home page of our site .
@@ -30,11 +31,19 @@ you will get a popup saying 20% discount applied just click ok and you will get 
 then click on checkout button and fill the details then click on next
 
 click on case on any Payment Method give the required details 
-next click on "place order" button if you selected cart method and did not give right cart details 
+next click on "place order" button if you selected cart method and did not give right cart details
+
 then you will get popup message saying Enter card details correctly
 that's why fill the right details and then click on "place order" button
 
-enter the hard corded OTP click on submit
+
+
+enter the hard corded OTP click on submit![Web capture_6-6-2022_184719_spectacular-valkyrie-df79c4 netlify app](https://user-images.githubusercontent.com/99732603/172173782-edb673c8-5615-4379-9791-acd4c84d1ff6.jpeg)
+
 you will get the order details by pop-up massages .
 
+
+
 THANK YOU</pre></h3>
+
+![Web capture_6-6-2022_184642_spectacular-valkyrie-df79c5 netlify app](https://user-images.githubusercontent.com/99732603/172173058-de704bbd-809b-47c8-8255-2926c97cd6cd.jpeg)![Web capture_6-6-2022_184750_spectacular-valkyrie-df79c4 netlify app](https://user-images.githubusercontent.com/99732603/172173650-4e75c94d-01fe-49f7-b624-05029e2f30ba.jpeg)
