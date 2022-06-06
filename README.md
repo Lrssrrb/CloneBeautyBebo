@@ -38,12 +38,13 @@ that's why fill the right details and then click on "place order" button
 
 
 
-enter the hard corded OTP click on submit![Web capture_6-6-2022_184719_spectacular-valkyrie-df79c4 netlify app](https://user-images.githubusercontent.com/99732603/172173782-edb673c8-5615-4379-9791-acd4c84d1ff6.jpeg)
-
+enter the hard corded OTP click on submit
 you will get the order details by pop-up massages .
 
 
 
 THANK YOU</pre></h3>
+![Web capture_6-6-2022_184719_spectacular-valkyrie-df79c4 netlify app](https://user-images.githubusercontent.com/99732603/172173782-edb673c8-5615-4379-9791-acd4c84d1ff6.jpeg)
 
-![Web capture_6-6-2022_184642_spectacular-valkyrie-df79c5 netlify app](https://user-images.githubusercontent.com/99732603/172173058-de704bbd-809b-47c8-8255-2926c97cd6cd.jpeg)![Web capture_6-6-2022_184750_spectacular-valkyrie-df79c4 netlify app](https://user-images.githubusercontent.com/99732603/172173650-4e75c94d-01fe-49f7-b624-05029e2f30ba.jpeg)
+![Web capture_6-6-2022_184642_spectacular-valkyrie-df79c5 netlify app](https://user-images.gi![Web capture_6-6-2022_184642_spectacular-valkyrie-df79c4 netlify app](https://user-images.githubusercontent.com/99732603/172175009-5fd8171d-6377-4fa9-b948-8d643f364da0.jpeg)
+thubusercontent.com/99732603/172173058-de704bbd-809b-47c8-8255-2926c97cd6cd.jpeg)![Web capture_6-6-2022_184750_spectacular-valkyrie-df79c4 netlify app](https://user-images.githubusercontent.com/99732603/172173650-4e75c94d-01fe-49f7-b624-05029e2f30ba.jpeg)
